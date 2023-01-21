@@ -438,8 +438,32 @@ Features
 
     
   }
+  
+
+  /*laptops*/
+
+  @media (max-height: 1030px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 18px;;
+    }
+    .book__button {
+        font-size : 8px;
+    }
+  }
   /*small phones, Large Smartphones*/
   @media (max-width:550px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 18px;;
+    }
+    .book__button {
+        font-size : 8px;
+    }
     .nav__links {
         display: none;
     }
@@ -453,18 +477,5 @@ Features
     .highlight:not(:last-child) {
         margin-bottom : 24px;
     }
-  }
 
-  /*laptops*/
-
-  @media (max-height: 1030px) {
-    h1{
-        font-size: 40px;
-    }
-    h2 {
-        font-size: 26px;
-    }
-    button {
-        font-size : 18px;
-    }
   }
