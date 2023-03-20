@@ -25,17 +25,19 @@
               <a class="nav__link" href="#contact">contact</a>
             </li>
             <li>
-              <a class="nav__link nav__link--primary" href="#recent">Books</a>
+              <a class="nav__link nav__link--primary" href="./books.html"
+                >Books</a
+              >
             </li>
           </ul>
-        
-        <button class="btn__menu" onclick="OpenMenu()" >
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="menu__backdrop">
-          <button class="btn__menu btn__menu--close" onclick="CloseMenu()">
-            <i class="fas fa-times"></i>
+
+          <button class="btn__menu" onclick="OpenMenu()">
+            <i class="fas fa-bars"></i>
           </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="CloseMenu()">
+              <i class="fas fa-times"></i>
+            </button>
             <ul class="menu__list">
               <li class="menu__links">
                 <a href="#" class="menu__link" onclick="CloseMenu()">Home</a>
@@ -44,7 +46,9 @@
                 <a class="no-cursor menu__link">contact</a>
               </li>
               <li class="menu__links">
-                <a href="#recent" class="menu__link" onclick="CloseMenu()">Books</a>
+                <a href="./books.html" class="menu__link" onclick="CloseMenu()"
+                  >Books</a
+                >
               </li>
             </ul>
           </div>
@@ -62,12 +66,16 @@
               A new addictive read in store with
               <span class="text--blue">Readiction</span>
             </h2>
-            <a href="#recent" >
-            <button class="book__button">browse Books</button>
-          </a>
+            <a href="#recent">
+              <button class="book__button">browse Books</button>
+            </a>
           </div>
           <figure class="header__img--wrapper">
-            <img src="./assets/Undraw_bibliophile_re_xarc.svg" alt="" class="header__img" />
+            <img
+              src="./assets/Undraw_bibliophile_re_xarc.svg"
+              alt=""
+              class="header__img"
+            />
           </figure>
         </div>
       </header>
@@ -320,9 +328,9 @@
             <h2 class="section__title">
               Explore more <span class="text--blue">Books</span>
             </h2>
-            <a href="#Features" >
-            <button class="book__button">Browse Books</button>
-          </a>
+            <a href="#Features">
+              <button class="book__button">Browse Books</button>
+            </a>
           </div>
         </div>
       </section>
@@ -332,13 +340,17 @@
         <div class="row footer__row">
           <a href="#">
             <figure class="footer__img--wrapper">
-              <img src="./assets/my-library-logo.svg" alt="" class="footer__img" />
+              <img
+                src="./assets/my-library-logo.svg"
+                alt=""
+                class="footer__img"
+              />
             </figure>
           </a>
           <div class="footer__links">
             <a href="#" class="footer__link">Home</a>
             <a class="footer__link no-cursor">About</a>
-            <a href="#recent" class="footer__link">Books</a>
+            <a href="./books.html" class="footer__link">Books</a>
             <a class="footer__link no-cursor">Contact</a>
           </div>
           <div class="footer__copyright">copyright &copy; 2023 Readiction</div>
